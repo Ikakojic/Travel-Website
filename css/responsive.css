@@ -1,0 +1,66 @@
+/*
+
+> 0px   XS - NO NAME
+
+
+> 576px SM - small devices
+
+
+
+> 768px MD  - medium devices
+
+
+> 992px  LG    large devices
+
+
+
+> 1200px  XL   extra large devices
+
+*/
+
+@media (min-width: 576px) {
+  .home-title h1 {
+    font-size: 4rem;
+  }
+ 
+}
+
+@media (min-width: 768px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6 {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-light .navbar-nav .nav-link {
+    border-bottom: 2px solid transparent;
+    padding: 15px;
+  }
+
+  .home-title {
+    top: 50%;
+  }
+  .home-title h1 {
+    font-size: 5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+  .navbar-light .navbar-nav .nav-item {
+    margin-left: 20px;
+  }
+}
