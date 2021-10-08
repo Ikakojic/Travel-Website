@@ -77,6 +77,7 @@ const txt = document.getElementById("txt");
 const form = document.getElementById("form");
 
 form.addEventListener("submit", (e) => {
+  e.preventDefault();
   if (fname.value.trim() === "") {
     alert("Please enter your name.");
   }
